@@ -74,7 +74,11 @@ div h3 {
     text-decoration: underline;
     text-align: center;
 }
-
+div ul {
+    text-align: lefr;
+    padding: 1;
+    margin: 1;
+}
 p {
     font-family: Marvel;
     color: black;
@@ -130,7 +134,7 @@ p {
 }
 
 .smallblock {
-    width: 300px;
+    width: 210px;
     margin-left: 2%;
     margin-right: 2%;
     border: 2px solid black;
@@ -162,20 +166,22 @@ a:visited {
     color: ghostwhite;
 }
 
-ul a:visited {
+ol a:visited {
     font-family: Marvel;
     color: black;
     font-size: 20px;
 }
 
-ul a:link {
+ol a:link {
     font-family: Marvel;
     color: black;
     font-size: 20px;
 }
 
 ol li  {
-    list-style: none;
+    list-style-type: none;
+    padding: 1;
+    margin: 1;
 }
 /*Bilder och Borders*/
 
